@@ -23,3 +23,13 @@ next. wake up App Server
 
 acess to `https://localhost:9090` !
 
+## change h2o conf
+
+mount `/work/conf` dir.
+
+docker arguments example(h2o using `/work/conf/h2o.conf`).
+
+```
+-v /path/to/my-h2o/conf:/work/conf
+```
+
